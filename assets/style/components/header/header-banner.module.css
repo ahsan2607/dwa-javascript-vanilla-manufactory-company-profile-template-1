@@ -1,0 +1,33 @@
+/* Header Banner */
+#header-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/bcb3fbeb-6a0a-4247-ad54-64ab04435642.jpeg");
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+#header-banner > * {
+  margin: 0 0 1.125rem !important;
+}
+
+#header-banner > img {
+  width: 200px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  #header-banner {
+    padding: 2rem;
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,46 @@
+@import "./components/header/header-navigation.module.css";
+@import "./components/header/header-banner.module.css";
+@import "./components/header/header-carousel.module.css";
+@import "./components/main/about.module.css";
+@import "./components/main/contact.module.css";
+@import "./components/main/accordion.module.css";
+@import "./components/main/product.module.css";
+@import "./components/main/service.module.css";
+@import "./elements/main.module.css";
+@import "./elements/button.module.css";
+@import "./components/footer/footer-upper.module.css";
+
+/* Global Styles */
+* {
+  transition: all;
+  transition-duration: 100ms;
+  font-family: "Poppins", Helvetica, sans-serif;
+  word-wrap: break-word;
+}
+
+/* Body Styling */
+body {
+  margin: 0 !important;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul > li {
+  white-space: inherit;
+}
+
+header {
+  display: inline;
+}
+
+/* Miscellanous Styles */
+.element-with-logo {
+  display: flex;
+  gap: 0.5rem;
+}
+.element-with-logo.center {
+  justify-content: center;
+}

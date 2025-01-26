@@ -1,0 +1,32 @@
+export const dataFooter = {
+  contact: {
+    title: "Contacts",
+    list: [
+      {
+        icon: "fa fa-phone",
+        title: "Phone",
+        content: "022-XXXXXXX / 022-XXXXXXX",
+      },
+      {
+        icon: "fa fa-envelope",
+        title: "Email",
+        content: "ouremail1@yahoo.com / ouremail2@gmail.com",
+      },
+      {
+        icon: "fa fa-map-marker-alt",
+        title: "Address",
+        content: "One town, On City, That Province, This Country",
+      },
+    ],
+  },
+  link: {
+    title: "Link",
+    list: [
+      { href: "./index.html", text: "Home" },
+      { href: "./about.html", text: "About Us" },
+      { href: "./product.html", text: "Products" },
+      { href: "./contact.html", text: "Contacts" },
+    ],
+  },
+  copyright: "All right reserved. Made with interest",
+};
