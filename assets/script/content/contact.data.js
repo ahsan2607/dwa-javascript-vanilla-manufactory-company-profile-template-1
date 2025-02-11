@@ -1,22 +1,24 @@
+import { phoneIcon, emailIcon, mapIcon, faxIcon } from "./graphic/icons.js";
+
 export const dataContact = {
   contactList: [
     {
-      icon: "phone",
+      icon: phoneIcon,
       title: "Phone",
       details: ["022-XXXXXXX", "022-XXXXXXX"],
     },
     {
-      icon: "envelope",
+      icon: emailIcon,
       title: "Email",
       details: ["ouremail1@example.com", "ouremail2@example.com"],
     },
     {
-      icon: "map-marker-alt",
+      icon: mapIcon,
       title: "Address",
       details: ["One town, On City, That Province, This Country"],
     },
     {
-      icon: "fax",
+      icon: faxIcon,
       title: "Fax",
       details: ["022-XXXXXXX"],
     },

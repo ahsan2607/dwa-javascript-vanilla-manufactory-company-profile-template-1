@@ -9,7 +9,7 @@ export const Contacts = (contactList = []) => {
         return createCustomElement("div", { class: "contact-item" }, [
           createCustomElement("div", { class: "contact-item__content" }, [
             createCustomElement("h3", { class: "contact-item__title element-with-logo" }, [
-              createCustomElement("i", { class: `fa fa-${contact.icon.toLowerCase()}` }),
+              createCustomElement("i", { class: contact.icon }),
               createCustomElement("span", { textContent: contact.title }),
             ]),
             createCustomElement(

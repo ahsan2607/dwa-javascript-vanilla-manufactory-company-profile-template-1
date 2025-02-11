@@ -1,19 +1,21 @@
+import { phoneIcon, emailIcon, mapIcon } from "./graphic/icons.js";
+
 export const dataFooter = {
   contact: {
     title: "Contacts",
     list: [
       {
-        icon: "fa fa-phone",
+        icon: phoneIcon,
         title: "Phone",
         content: "022-XXXXXXX / 022-XXXXXXX",
       },
       {
-        icon: "fa fa-envelope",
+        icon: emailIcon,
         title: "Email",
         content: "ouremail1@yahoo.com / ouremail2@gmail.com",
       },
       {
-        icon: "fa fa-map-marker-alt",
+        icon: mapIcon,
         title: "Address",
         content: "One town, On City, That Province, This Country",
       },

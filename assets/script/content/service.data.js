@@ -1,7 +1,10 @@
+import { iconPlaceholder1, iconPlaceholder2, iconPlaceholder3 } from "./graphic/icons.js";
+
 export const dataService = [
-  { icon: "fa fa-cogs", title: "Lorem Ipsum", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit." },
-  { icon: "fa fa-shield-alt", title: "Lorem Ipsum", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit." },
-  { icon: "fa fa-rocket", title: "Lorem Ipsum", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit." },
-  { icon: "fa fa-cogs", title: "Lorem Ipsum", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit." },
-  { icon: "fa fa-shield-alt", title: "Lorem Ipsum", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit." },
+  { icon: iconPlaceholder1, title: "Lorem Ipsum", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit." },
+  { icon: iconPlaceholder2, title: "Lorem Ipsum", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit." },
+  { icon: iconPlaceholder3, title: "Lorem Ipsum", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit." },
+  { icon: iconPlaceholder3, title: "Lorem Ipsum", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit." },
+  { icon: iconPlaceholder2, title: "Lorem Ipsum", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit." },
+  { icon: iconPlaceholder1, title: "Lorem Ipsum", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit." },
 ];

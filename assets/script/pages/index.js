@@ -2,13 +2,14 @@ import { MainLayout } from "../layout/main.layout.js";
 import { appendElement } from "../element/index.js";
 import { Navbar, Hero, BannerCarousel, Abouts, Products, MessageForm, Section, FloatButton } from "../component/index.js";
 import { dataHeaderNavigation, dataHeaderBanner, dataHeaderCarousel, dataAbout, dataProduct } from "../content/index.js";
+import { whatsappIcon } from "../content/graphic/icons.js";
 
 MainLayout(
   // () => {
   //   const { element, ui } = BannerCarousel(dataHeaderCarousel, {
   //     headerNavigationId: Navbar(dataHeaderNavigation.links, dataHeaderNavigation.logo, dataHeaderNavigation.name).element.id,
   //     autoPlay: true,
-  //     interval: 2000,
+  //     interval: 3000,
   //   });
   //   appendElement("header", element, ui);
   // },
@@ -28,7 +29,7 @@ MainLayout(
   },
   () => {
     const { element: elAbouts, ui: uiAbouts } = Abouts(
-      dataAbout.filter((item, index) => index < 1),
+      dataAbout.filter(({}, index) => index < 1),
       { withButton: true }
     );
     const { element, ui } = Section("highligthed-abouts", "About Us", () => elAbouts, uiAbouts);
@@ -36,10 +37,10 @@ MainLayout(
   },
   () => {
     const { element: elMessageForm, ui: uiMessageForm } = MessageForm();
-    const { element, ui } = Section("message-form", "About Us", () => elMessageForm, uiMessageForm);
+    const { element, ui } = Section("message-form", "Contact Us", () => elMessageForm, uiMessageForm);
     appendElement("main", element, ui);
   },
   () => {
-    appendElement("footer", FloatButton({link: "https://wa.me/", icon: "fa-brands fa-whatsapp"}).element)
+    appendElement("footer", FloatButton({link: "https://wa.me/", icon: whatsappIcon}).element)
   }
 );

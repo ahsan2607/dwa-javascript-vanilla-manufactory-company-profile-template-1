@@ -1,7 +1,8 @@
+import { chevronDownIcon, chevronUpIcon } from "../../content/graphic/icons.js";
 import { createCustomElement } from "../../element/index.js";
 
 export const Accordion = (id, title, childElement, childUIFunction) => {
-  const icon = createCustomElement("i", { class: "fa fa-chevron-up" });
+  const icon = createCustomElement("i", { class: chevronUpIcon });
   const header = createCustomElement(
     "button",
     {
@@ -17,7 +18,7 @@ export const Accordion = (id, title, childElement, childUIFunction) => {
       header.addEventListener("click", () => {
         const isExpanded = header.getAttribute("aria-expanded") === "true";
         header.setAttribute("aria-expanded", !isExpanded);
-        icon.className = isExpanded ? "fa fa-chevron-down" : "fa fa-chevron-up";
+        icon.className = isExpanded ? chevronDownIcon : chevronUpIcon;
         content.style.display = isExpanded ? "none" : "block";
       });
       childUIFunction();

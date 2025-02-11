@@ -1,3 +1,5 @@
+import { image } from "./graphic/images.js";
+
 export const dataProduct = [
   {
     id: 1,
@@ -8,7 +10,7 @@ export const dataProduct = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit",
     category: "Category 1",
     featured: false,
-    image: "./assets/images/product (1).jpg",
+    image: image,
     link: "https://youtube.com",
   },
   {
@@ -20,7 +22,7 @@ export const dataProduct = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit",
     category: ["Category 2", "Category 1", "Category 6"],
     featured: true,
-    image: "./assets/images/product (2).jpg",
+    image: image,
     link: "https://youtube.com",
   },
   {
@@ -32,7 +34,7 @@ export const dataProduct = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit",
     category: "Category 3",
     featured: false,
-    image: "./assets/images/product (3).jpg",
+    image: image,
     link: "https://youtube.com",
   },
   {
@@ -44,7 +46,7 @@ export const dataProduct = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit",
     category: ["Category 1", "Category 4", "Category 2"],
     featured: true,
-    image: "./assets/images/product (4).jpg",
+    image: image,
     link: "https://youtube.com",
   },
   {
@@ -56,7 +58,7 @@ export const dataProduct = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit",
     category: ["Category 5", "Category 6"],
     featured: false,
-    image: "./assets/images/product (5).jpg",
+    image: image,
     link: "https://youtube.com",
   },
   {
@@ -68,7 +70,7 @@ export const dataProduct = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit",
     category: ["Category 6", "Category 7"],
     featured: true,
-    image: "./assets/images/product (6).jpg",
+    image: image,
     link: "https://youtube.com",
   },
   {
@@ -80,7 +82,7 @@ export const dataProduct = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit",
     category: "Category 7",
     featured: false,
-    image: "./assets/images/product (7).jpg",
+    image: image,
     link: "https://youtube.com",
   },
   {
@@ -92,7 +94,7 @@ export const dataProduct = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit",
     category: ["Category 4", "Category 5"],
     featured: true,
-    image: "./assets/images/product (8).jpg",
+    image: image,
     link: "https://youtube.com",
   },
 ];

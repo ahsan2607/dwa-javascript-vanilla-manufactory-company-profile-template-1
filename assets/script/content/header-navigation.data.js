@@ -1,6 +1,8 @@
+import { logo } from "./graphic/images.js";
+
 export const dataHeaderNavigation = {
   name: "Company Name",
-  logo: "./assets/images/logo.jpg",
+  logo: logo,
   links: [
     { link: "index.html", text: "Home" },
     { link: "about.html", text: "About Us" },

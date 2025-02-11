@@ -1,7 +1,7 @@
-export { Abouts } from "./display/Abouts.js";
-export { Contacts } from "./display/Contacts.js";
-export { Products } from "./display/Products.js";
-export { Services } from "./display/Services.js";
+export { Abouts } from "./display/ContentBlock.js";
+export { Contacts } from "./display/ContentList.js";
+export { Products } from "./display/Catalogue.js";
+export { Services } from "./display/CardGrid.js";
 
 export { BannerCarousel } from "./interactive/BannerCarousel.js";
 export { CardCarousel } from "./interactive/CardCarousel.js";

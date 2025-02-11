@@ -2,6 +2,7 @@ import { MainLayout } from "../layout/main.layout.js";
 import { appendElement } from "../element/index.js";
 import { Abouts, Services, Section, FloatButton } from "../component/index.js";
 import { dataAbout, dataService } from "../content/index.js";
+import { whatsappIcon } from "../content/graphic/icons.js";
 
 MainLayout(
   () => {
@@ -15,6 +16,6 @@ MainLayout(
     appendElement("main", element, ui);
   },
   () => {
-    appendElement("footer", FloatButton({ link: "https://wa.me/", icon: "fa fa-comment" }).element);
+    appendElement("footer", FloatButton({ link: "https://wa.me/", icon: whatsappIcon }).element);
   }
 );
